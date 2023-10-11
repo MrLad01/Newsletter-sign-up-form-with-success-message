@@ -7,6 +7,9 @@ export default {
     extend: {
       screens: {
         'xs' : '325px'
+      },
+      colors: {
+        'tomato': 'hsl(4, 100%, 67%)',
       }
     },
   },
