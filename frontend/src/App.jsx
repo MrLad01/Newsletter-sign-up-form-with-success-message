@@ -125,6 +125,7 @@ function App() {
                       {() => {
                         setEmail('');
                         setSubmitted('');
+                        setError(false);
                       }}
                 >
                       Dismiss message
