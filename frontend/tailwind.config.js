@@ -4,7 +4,11 @@ export default {
     "./src/App.jsx"
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'xs' : '325px'
+      }
+    },
   },
   plugins: [],
 }
